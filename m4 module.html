@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 4 - JavaScript Loops and Objects</title>
+    <script defer src="m4.js"></script>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin: 20px; }
+        pre { background: #f4f4f4; padding: 10px; border-radius: 5px; text-align: left; }
+        .output { margin-top: 20px; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>JavaScript Loops and Objects</h1>
+    <h2>For...in Loop Output</h2>
+    <pre id="forInOutput"></pre>
+
+    <h2>For Loop Output</h2>
+    <pre id="forLoopOutput"></pre>
+
+    <h2>Object Manipulation Output</h2>
+    <pre id="objectOutput"></pre>
+
+    <script>
+        // Fetch and display the outputs once JS script runs
+        document.addEventListener("DOMContentLoaded", function () {
+            document.getElementById("forInOutput").textContent = forInLoopOutput;
+            document.getElementById("forLoopOutput").textContent = forLoopOutput;
+            document.getElementById("objectOutput").textContent = objectOutput;
+        });
+    </script>
+</body>
+</html>
